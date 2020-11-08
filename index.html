@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>TP CAC Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <header class="jumbotron m-0 text-center">
+        <h1 class="font-weight-bolder"> Bikes4U </h1>
+    </header>
+
+    <main>
+        <nav class="navbar navbar-expand-md bg-info navbar-light sticky-top">
+
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo" id="navLogo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section id="Inicio">
+            <h2>
+                Nuevos Modelos
+            </h2>
+            <div id="novedades" class="carousel slide" data-ride="carousel">
+
+                <ul class="carousel-indicators">
+                    <li data-target="#novedades" data-slide-to="0" class="active"></li>
+                    <li data-target="#novedades" data-slide-to="1"></li>
+                    <li data-target="#novedades" data-slide-to="2"></li>
+                </ul>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="caroImg" src="img/novedad1.jpg" alt="Nuevo Modelo 1">
+                        <div class="carousel-caption">
+                            <h3>Alto Rendimiento</h3>
+                            <p>Giant Propel Advanced Pro</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="caroImg" src="img/novedad2.jpg" alt="Nuevo Modelo 2">
+                        <div class="carousel-caption">
+                            <h3>E-Bike</h3>
+                            <p>Giant Fathom E+ Junior</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="caroImg" src="img/novedad3.jpg" alt="Nuevo Modelo 3">
+                        <div class="carousel-caption">
+                            <h3>Plegable</h3>
+                            <p>Giant Expressway 2 2020</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <a class="carousel-control-prev" href="#novedades" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#novedades" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+        </section>
+        <section id="Productos">
+            <h2 class="my-5">
+                Productos
+            </h2>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="img/item1-1.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Giant Stance</h4>
+                                <p class="card-text">Cuadro ALUXX SL, horquilla RockShox Recon 130mm,
+                                    amortiguador RockShox Monarch R, transmisión SRAM SX Eagle</p>
+                                <button class="btn btn-primary">Más info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="img/item2-1.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Giant Reign E+ 0 Pro </h4>
+                                <p class="card-text">Motor Giant powered by Yamaha, batería Giant 500, suspensiones
+                                    FOX Kashima, transmisión SRAM X01 AXS</p>
+                                <button class="btn btn-primary">Más info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="img/item3-1.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Giant Stance E+ 0 Pro</h4>
+                                <p class="card-text">Cuadro ALUXX, RockShox 35 Gold
+                                    RL DebonAir y Fox Float DPS. Motor Giant,
+                                    transmisión Sram SX Eagle de 12v</p>
+                                <button class="btn btn-primary">Más info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="img/item4-1.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Giant TCX Advanced Pro 2</h4>
+                                <p class="card-text">Cuadro ALUXX, tija de sillín D-Fuse,
+                                    manillar Contact XR D-Fuse, horquilla de carbono Advanced (T-700)</p>
+                                <button class="btn btn-primary">Más info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="img/item1-1.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Giant Stance</h4>
+                                <p class="card-text">Cuadro ALUXX SL, horquilla RockShox Recon 130mm,
+                                    amortiguador RockShox Monarch R, transmisión SRAM SX Eagle</p>
+                                <button class="btn btn-primary">Más info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="img/item1-1.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Giant Stance</h4>
+                                <p class="card-text">Cuadro ALUXX SL, horquilla RockShox Recon 130mm,
+                                    amortiguador RockShox Monarch R, transmisión SRAM SX Eagle</p>
+                                <button class="btn btn-primary">Más info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="img/item1-1.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Giant Stance</h4>
+                                <p class="card-text">Cuadro ALUXX SL, horquilla RockShox Recon 130mm,
+                                    amortiguador RockShox Monarch R, transmisión SRAM SX Eagle</p>
+                                <button class="btn btn-primary">Más info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="img/item1-1.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Giant Stance</h4>
+                                <p class="card-text">Cuadro ALUXX SL, horquilla RockShox Recon 130mm,
+                                    amortiguador RockShox Monarch R, transmisión SRAM SX Eagle</p>
+                                <button class="btn btn-primary">Más info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <section id="Servicios">
+            <h2>
+                Servicios
+            </h2>
+        </section>
+        <section id="Contacto">
+            <h2>
+                Contacto
+            </h2>
+        </section>
+
+
+    </main>
+
+    <aside>
+
+    </aside>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        $('.navbar-collapse a').click(function () {
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
+</body>
+
+</html>

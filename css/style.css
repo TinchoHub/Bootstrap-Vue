@@ -1,0 +1,63 @@
+body {
+    font-family: 'Russo One', sans-serif;
+}
+h2 {
+    margin: 0%;
+    padding: 0%;
+}
+.jumbotron {
+    background: url("../img/banner1.jpg") fixed;
+    background-size: 100%;
+    border-radius: 0%;
+    padding: 9.5vw;    
+}
+header h1 {
+    font-size: 5vw;
+    color: white;
+    letter-spacing: 8vw;
+    text-shadow: 0.2vw 0.2vw black;
+}
+.nav-item a {
+    font-size: 130%;
+}
+section {
+    
+}
+#Inicio {
+    border-top: 1px black solid;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 4em;
+}
+.caroImg {
+    width: 90%;
+    padding: 10%;
+}
+.carousel-control-prev, .carousel-control-next, .carousel-caption, .carousel-indicators{
+    filter: invert(100%);
+}
+
+#Productos {
+    border-top: 1px black solid;
+    background: url("../img/fondoVarias3.jpg") fixed;   
+    text-align: center;
+}
+.card {    
+   margin: 0.5em;
+}
+#Servicios {
+    border-top: 1px black solid;
+}
+#Contacto {
+    border-top: 1px black solid;
+}
+
+#navLogo {
+    width: 3em;
+}
+@media (max-width:768px){
+    .carousel-caption {
+        display: none !important;
+    }
+}
