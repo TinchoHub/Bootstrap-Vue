@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>TP CAC Bootstrap + JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/860ff6ae13.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <header id="miHeader">
+        <!--Contenido agregado dinámicamente -->
+    </header>
+
+    <main>
+        <nav class="navbar navbar-expand-md bg-info navbar-light sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo" id="navLogo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav" id="navBar">
+                    <!-- Contenido agregado dinámicamente -->
+                </ul>
+            </div>
+        </nav>
+
+        <section id="Inicio">
+            <h2>
+                Nuevos Modelos
+            </h2>
+            <div id="novedades" class="carousel slide" data-ride="carousel">
+
+                <ul class="carousel-indicators">
+                    <li data-target="#novedades" data-slide-to="0" class="active"></li>
+                    <li data-target="#novedades" data-slide-to="1"></li>
+                    <li data-target="#novedades" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner" id="carouselInner">
+                    <!-- Contenido agregado dinámicamente -->
+                </div>
+                <a class="carousel-control-prev" href="#novedades" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#novedades" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </section>
+
+        <section id="Productos">
+            <h2 class="my-5">
+                Productos
+            </h2>
+            <div class="container-fluid" id="cardList">
+                <!-- Contenido agregado dinámicamente -->
+            </div>
+        </section>
+
+        <section id="Servicios">
+            <h2>
+                Talleres
+            </h2>
+            <table id="miTabla" class="table table-striped table-bordeless table-light table-hover mb-0">
+                 <!-- Contenido agregado dinámicamente -->
+            </table>
+
+        </section>
+
+        <section id="Contacto">
+            <h2>
+                Contacto
+            </h2>
+            <video autoplay muted loop id="videoServ">
+                <source src="img/video.mp4" type="video/mp4">
+            </video>
+
+            <form class="form-inline" action="show_data.html" target="_blank">
+                <label for="email" class="mr-sm-2">Email address:</label>
+                <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter email" id="email" name="email">
+                <label for="pwd" class="mr-sm-2">Password:</label>
+                <input type="password" class="form-control mb-2 mr-sm-2" placeholder="Enter password" id="pwd" name="pwd">
+                <div class="form-check mb-2 mr-sm-2">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Remember me
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+              </form>
+
+        </section>
+    </main>
+
+    <footer id="miFooter">        
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script>
+        $('.navbar-collapse a').click(function () {
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
+</body>
+
+</html>

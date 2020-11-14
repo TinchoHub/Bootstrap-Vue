@@ -1,0 +1,81 @@
+body {
+    font-family: 'Russo One', sans-serif;
+}
+.jumbotron {
+    background: url("../img/banner1.jpg") fixed;
+    background-size: 100%;
+    border-radius: 0%;
+    padding: 9.5vw;    
+}
+header h1 {
+    font-size: 5vw;
+    color: white;
+    letter-spacing: 8vw;
+    text-shadow: 0.2vw 0.2vw black;
+}
+section h2 {
+    color: white;
+    text-shadow: 0.2vw 0.2vw black;
+    letter-spacing: 4vw; 
+    text-align: center;
+    padding: 1em;
+}
+.nav-item a {
+    font-size: 130%;
+}
+#Inicio {
+    border-top: 1px black solid;
+    background-color: white;        
+}
+.caroImg {
+    width: 90%;
+    padding: 5%;
+}
+.carousel-control-prev, .carousel-control-next, .carousel-caption, .carousel-indicators{
+    filter: invert(100%);
+}
+#Productos {
+    border-top: 1px black solid;
+    background: url("../img/fondoVarias3.jpg") fixed;   
+}
+.card {    
+   margin: 0.5em;
+}
+#Servicios {
+    margin-top: 0%;
+    border-top: 1px black solid;
+    background-color: lightgrey;
+}
+#videoServ {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  background-size: cover;
+}
+#Contacto {
+    border-top: 1px black solid;
+    color: white;
+}
+#navLogo {
+    width: 3em;
+}
+#miFooter ul li {
+    background-color: transparent; 
+    font-size: 4vw;  
+}
+footer p {
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+    letter-spacing: 1vw;
+    text-shadow: 0.2vw 0.2vw black;
+}
+
+@media (max-width:768px){
+    .carousel-caption {
+        display: none !important;
+    }
+}
